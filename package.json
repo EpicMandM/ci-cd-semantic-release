@@ -1,0 +1,19 @@
+{
+  "name": "my-python-app",
+  "version": "0.0.0-development",
+  "private": true,
+  "devDependencies": {
+    "semantic-release": "^20.0.0",
+    "@semantic-release/commit-analyzer": "^8.0.0",
+    "@semantic-release/release-notes-generator": "^10.0.0",
+    "@semantic-release/github": "^9.0.0",
+    "@semantic-release/git": "^10.0.0",
+    "@codedependant/semantic-release-docker": "^1.0.0"
+  },
+  "scripts": {
+    "build": "echo 'Skipping build'",
+    "test": "pytest",
+    "semantic-release": "semantic-release"
+  }
+}
+
