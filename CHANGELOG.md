@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/EpicMandM/ci-cd-semantic-release/compare/v1.0.0...v1.0.1) (2025-06-18)
+
+
+### Bug Fixes
+
+* test semantic release ([7eea6c4](https://github.com/EpicMandM/ci-cd-semantic-release/commit/7eea6c4d95a8fd239db71e3aee462e1ac0093322))
+
 # 1.0.0 (2025-06-18)
 
 
