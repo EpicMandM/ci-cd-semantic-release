@@ -12,7 +12,7 @@
       "prepareCmd": "npm run build && npm run test"
     }],
     ["@semantic-release/exec", {
-      "publishCmd": "docker login -u $DOCKERHUB_USERNAME -p $DOCKERHUB_PASSWORD && docker push $DOCKERHUB_REPOSITORY:${version} && docker push $DOCKERHUB_REPOSITORY:latest"
+      "publishCmd": "docker login -u $DOCKER_REGISTRY_USER -p $DOCKER_REGISTRY_PASSWORD && docker push $DOCKERHUB_REPOSITORY:${version} && docker push $DOCKERHUB_REPOSITORY:latest"
     }],
     ["@semantic-release/git", {
       "assets": ["package.json", "CHANGELOG.md"],
