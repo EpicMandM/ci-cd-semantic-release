@@ -118,7 +118,7 @@ or use the automated deploy feature:
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-For more information about using Python on Heroku, see these Dev Center articles:
+## Semantic Release
 
  - [Python on Heroku](https://devcenter.heroku.com/categories/python)
 
@@ -128,7 +128,6 @@ This project uses [semantic-release](https://github.com/semantic-release/semanti
 in a GitHub Actions workflow. New versions are published automatically when
 commits following the Conventional Commits specification are pushed to the
 `master` branch.
-
 To publish Docker images, the workflow expects the following secrets:
 
 - `DOCKER_REGISTRY_USER`
