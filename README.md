@@ -118,10 +118,6 @@ or use the automated deploy feature:
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-For more information about using Python on Heroku, see these Dev Center articles:
-
- - [Python on Heroku](https://devcenter.heroku.com/categories/python)
-
 ## Semantic Release
 
 This project uses [semantic-release](https://github.com/semantic-release/semantic-release)
