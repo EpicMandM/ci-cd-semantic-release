@@ -120,7 +120,16 @@ or use the automated deploy feature:
 
 ## Semantic Release
 
+ - [Python on Heroku](https://devcenter.heroku.com/categories/python)
+
+## Semantic Release
+
 This project uses [semantic-release](https://github.com/semantic-release/semantic-release)
 in a GitHub Actions workflow. New versions are published automatically when
 commits following the Conventional Commits specification are pushed to the
 `master` branch.
+To publish Docker images, the workflow expects the following secrets:
+
+- `DOCKER_REGISTRY_USER`
+- `DOCKER_REGISTRY_PASSWORD`
+
