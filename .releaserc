@@ -12,15 +12,16 @@
       "prepareCmd": "npm run build && npm run test"
     }],
     ["@semantic-release/exec", {
-      "publishCmd": "docker login -u $DOCKERHUB_USERNAME -p $DOCKERHUB_PASSWORD && docker push $DOCKERHUB_REPOSITORY:${version} && docker push $DOCKERHUB_REPOSITORY:latest"
+      "publishCmd": "docker login -u $DOCKER_REGISTRY_USER -p $DOCKER_REGISTRY_PASSWORD && docker push $DOCKERHUB_REPOSITORY:${nextRelease.version} && docker push $DOCKERHUB_REPOSITORY:latest"
     }],
     ["@semantic-release/git", {
       "assets": ["package.json", "CHANGELOG.md"],
       "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
     }],
     ["@codedependant/semantic-release-docker", {
-      "dockerImageName": "${{ secrets.DOCKERHUB_REPOSITORY }}",
-      "dockerTags": ["${version}", "latest"]
+      "dockerImage": "my-python-app",
+      "dockerProject": "EpicMandM",
+      "dockerTags": ["{{version}}", "latest"]
     }]
   ]
 }
