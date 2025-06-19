@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/EpicMandM/ci-cd-semantic-release/compare/v1.1.0...v1.1.1) (2025-06-19)
+
+
+### Bug Fixes
+
+* **release:** use lowercase docker repo ([b9013cd](https://github.com/EpicMandM/ci-cd-semantic-release/commit/b9013cd9ed20eee6838a07eaf23a2638df7282b0))
+
 # [1.1.0](https://github.com/EpicMandM/ci-cd-semantic-release/compare/v1.0.1...v1.1.0) (2025-06-19)
 
 
