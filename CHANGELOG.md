@@ -1,5 +1,15 @@
 # Changelog
 
+# [2.0.0](https://github.com/EpicMandM/ci-cd-semantic-release/compare/v1.2.0...v2.0.0) (2025-06-19)
+
+
+* feat(routes)!: rename health check response ([8ba31dd](https://github.com/EpicMandM/ci-cd-semantic-release/commit/8ba31ddec5f58a122b880818befa7cc260388d5e))
+
+
+### BREAKING CHANGES
+
+* home endpoint now returns {"app_status": "ok"} instead of {"status": "ok"}.
+
 # [1.2.0](https://github.com/EpicMandM/ci-cd-semantic-release/compare/v1.1.2...v1.2.0) (2025-06-19)
 
 
