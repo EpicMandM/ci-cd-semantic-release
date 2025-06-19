@@ -112,10 +112,6 @@ $ heroku run python seed.py
 $ heroku open
 ```
 
-or use the automated deploy feature:
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
-
 ## Semantic Release
 
  - [Python on Heroku](https://devcenter.heroku.com/categories/python)
