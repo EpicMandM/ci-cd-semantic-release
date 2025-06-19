@@ -114,10 +114,6 @@ $ heroku open
 
 ## Semantic Release
 
- - [Python on Heroku](https://devcenter.heroku.com/categories/python)
-
-## Semantic Release
-
 This project uses [semantic-release](https://github.com/semantic-release/semantic-release)
 in a GitHub Actions workflow. New versions are published automatically when
 commits following the Conventional Commits specification are pushed to the
