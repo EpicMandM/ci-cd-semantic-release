@@ -1,5 +1,5 @@
 {
-  "name": "my-python-app",
+  "name": "ci-cd-semantic-release",
   "version": "0.0.0-development",
   "private": true,
   "devDependencies": {
