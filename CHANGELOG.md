@@ -1,5 +1,12 @@
 # Changelog
 
+# [1.1.0](https://github.com/EpicMandM/ci-cd-semantic-release/compare/v1.0.1...v1.1.0) (2025-06-19)
+
+
+### Features
+
+* add semantic versioning ([51664f5](https://github.com/EpicMandM/ci-cd-semantic-release/commit/51664f53373ba2b5aec12c2ec305594e5772123b))
+
 ## [1.0.1](https://github.com/EpicMandM/ci-cd-semantic-release/compare/v1.0.0...v1.0.1) (2025-06-18)
 
 
