@@ -1,5 +1,13 @@
 # Changelog
 
+# [1.2.0](https://github.com/EpicMandM/ci-cd-semantic-release/compare/v1.1.2...v1.2.0) (2025-06-19)
+
+
+### Features
+
+* **readme:** add release badge ([edee767](https://github.com/EpicMandM/ci-cd-semantic-release/commit/edee767e9b5049d8cbb0eda6c8a0e765000ca189))
+* **readme:** add release build badge ([0e7a3f2](https://github.com/EpicMandM/ci-cd-semantic-release/commit/0e7a3f2142b4e9cee3e447d8db9ce265bfd95490))
+
 ## [1.1.2](https://github.com/EpicMandM/ci-cd-semantic-release/compare/v1.1.1...v1.1.2) (2025-06-19)
 
 
