@@ -1,4 +1,4 @@
-![Release Build](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
+![Release Build](https://github.com/EpicMandM/ci-cd-semantic-release/actions/workflows/release.yml/badge.svg)
 
 # CD/CI Tutorial Sample Application
 
