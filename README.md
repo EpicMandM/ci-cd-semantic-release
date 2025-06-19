@@ -132,4 +132,3 @@ To publish Docker images, the workflow expects the following secrets:
 
 - `DOCKER_REGISTRY_USER`
 - `DOCKER_REGISTRY_PASSWORD`
-
