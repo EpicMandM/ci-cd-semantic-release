@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/EpicMandM/ci-cd-semantic-release/compare/v1.1.1...v1.1.2) (2025-06-19)
+
+
+### Bug Fixes
+
+* **readme:** remove unnesessary spacing ([0e27d9b](https://github.com/EpicMandM/ci-cd-semantic-release/commit/0e27d9b021c4c307ffb9ac574bf2b0820ef7eaca))
+
 ## [1.1.1](https://github.com/EpicMandM/ci-cd-semantic-release/compare/v1.1.0...v1.1.1) (2025-06-19)
 
 
